@@ -3,8 +3,8 @@ const Home = () => {
     <div className="">
       <div className="flex flex-col md:flex-row justify-center md:justify-between gap-10 items-center">
         <div id="home-content" className="md:w-2/4 order-2 md:order-1">
-          <h1 className="text-6xl font-black">
-            Hello, I'm <br /> Jannatul Ferdoush
+          <h1 className="text-5xl font-black">
+            Hello, I'm <br /> <span className="text-violet-700">Jannatul Ferdoush</span>
           </h1>
           <p className="mt-5 text-justify">
             Motivated junior frontend developer skilled in HTML, CSS, Bootstrap
