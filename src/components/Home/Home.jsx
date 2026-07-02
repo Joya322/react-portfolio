@@ -5,19 +5,19 @@ const Home = () => {
     <div className="flex flex-col md:flex-row justify-center md:justify-between gap-10 items-center mt-8">
       <div id="home-content" className="md:w-2/4 order-2 md:order-1">
         {/* Introduction */}
-        <h1 className="text-5xl font-black">
+        <h1 className="text-3xl lg:text-5xl font-black">
           Hello, I'm <br />
           <span className="text-violet-700">Jannatul Ferdoush</span>
         </h1>
 
         {/* Designation */}
-        <h4 className="text-xl font-semibold text-gray-700 my-6">
+        <h4 className="text-lg lg:text-2xl font-semibold text-gray-700 my-6">
           Computer Science Lecturer | Full-Stack Web Developer (
           <span className="text-violet-700">MERN Stack</span>)
         </h4>
 
         {/* Summary */}
-        <p className="text-justify">
+        <p className="text-justify text-base lg:text-lg text-gray-600">
           I build modern, responsive, and user-friendly web applications using
           the MERN Stack while sharing knowledge as a Computer Science lecturer.
         </p>
@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       {/* Profile Image */}
-      <div className="md:w-1/4 mx-auto order-1 md:order-2">
+      <div className="md:w-1/3 lg:w-1/4 lg:mx-auto order-1 md:order-2">
         <img
           className="rounded-full w-full"
           src="./Jannat-WithoutBg.png"
