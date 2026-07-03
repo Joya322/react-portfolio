@@ -18,8 +18,10 @@ const Home = () => {
 
         {/* Summary */}
         <p className="text-justify text-base lg:text-lg text-gray-600">
-          I build modern, responsive, and user-friendly web applications using
-          the MERN Stack while sharing knowledge as a Computer Science lecturer.
+          Building modern, responsive, and scalable web applications with the
+          MERN Stack while inspiring future software engineers through teaching.
+          Passionate about clean code, continuous learning, and creating
+          impactful digital experiences.
         </p>
 
         {/* Download Resume Button */}
@@ -27,7 +29,7 @@ const Home = () => {
           href="./Jannatul-Ferdoush-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn px-5 py-3 bg-violet-600 text-white rounded-lg my-6 hover:bg-violet-800"
+          className="btn px-5 py-3 bg-violet-600 text-white rounded-lg my-6 hover:bg-violet-800 shadow-lg shadow-violet-400 border-none"
         >
           Download Resume
         </a>
@@ -40,7 +42,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={25} />
+            <FaGithub size={24} />
           </a>
 
           {/* LinkedIn */}
@@ -49,7 +51,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-blue-700" size={25} />
+            <FaLinkedin className="text-blue-700" size={24} />
           </a>
 
           {/* Facebook */}
@@ -58,16 +60,16 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook className="text-blue-700" size={25} />
+            <FaFacebook className="text-blue-700" size={24} />
           </a>
         </div>
       </div>
 
       {/* Profile Image */}
-      <div className="md:w-1/3 lg:w-1/4 lg:mx-auto order-1 md:order-2">
+      <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 order-1 md:order-2 mx-auto">
         <img
-          className="rounded-full w-full"
-          src="./Jannat-WithoutBg.png"
+          className="rounded-full w-full h-full shadow-2xl shadow-black/30"
+          src="./Jannatul-Ferdoush.png"
           alt=""
         />
       </div>
