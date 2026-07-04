@@ -147,19 +147,19 @@ const About = () => {
             Technologies
           </h4>
           <div className="flex flex-wrap gap-4 mt-4">
-            <p className="p-2 bg-violet-200 text-violet-800 rounded-2xl">
+            <p className="p-2 bg-violet-300 text-violet-950 rounded-2xl">
               React
             </p>
-            <p className="p-2 bg-violet-200 text-violet-800 rounded-2xl">
+            <p className="p-2 bg-violet-300 text-violet-950 rounded-2xl">
               JavaScript
             </p>
-            <p className="p-2 bg-violet-200 text-violet-800 rounded-2xl">
+            <p className="p-2 bg-violet-300 text-violet-950 rounded-2xl">
               TypeScript
             </p>
-            <p className="p-2 bg-violet-200 text-violet-800 rounded-2xl">
+            <p className="p-2 bg-violet-300 text-violet-950 rounded-2xl">
               Node.js
             </p>
-            <p className="p-2 bg-violet-200 text-violet-800 rounded-2xl">
+            <p className="p-2 bg-violet-300 text-violet-950 rounded-2xl">
               PostgreSQL
             </p>
           </div>
