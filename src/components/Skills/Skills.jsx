@@ -25,7 +25,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="mt-6">
+    <div className="mt-8">
       <h2 className="text-center font-bold text-3xl">Skills</h2>
       <p className="text-center mt-3 opacity-80">
         Technologies I use to build web applications

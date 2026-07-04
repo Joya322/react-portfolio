@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Experiences from './components/Experiences/Experiences';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact.jsx'
+import Education from './components/Education/Education.jsx';
 
 const router = createHashRouter([
   {
@@ -26,12 +27,16 @@ const router = createHashRouter([
         element: <About/>
       },
       {
-        path: '/experiences',
-        element: <Experiences/>
-      },
-      {
         path: '/skills',
         element: <Skills/>
+      },
+      {
+        path: '/education',
+        element: <Education/>
+      },
+      {
+        path: '/experiences',
+        element: <Experiences/>
       },
       {
         path: '/contact',

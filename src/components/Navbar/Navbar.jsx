@@ -31,6 +31,11 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
+        <NavLink to="/education" className={navClass} onClick={closeMenu}>
+          Education
+        </NavLink>
+      </li>
+      <li>
         <NavLink to="/experiences" className={navClass} onClick={closeMenu}>
           Experiences
         </NavLink>
@@ -44,7 +49,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar sticky top-0 bg-gradient-to-t from-sky-50 to-sky-100 opacity-90 shadow-lg px-0 py-5">
+    <div className="navbar sticky top-0 bg-gradient-to-t from-sky-50 to-sky-100 opacity-90 shadow-lg px-0 py-5 z-50">
       <div className="w-11/12 mx-auto flex justify-between items-center">
         {/* Logo */}
         <a className="btn btn-ghost text-3xl font-bold px-0 text-violet-700">
@@ -66,7 +71,7 @@ const NavBar = () => {
               // Menu Close icon
               <AiOutlineMenuFold size={26} />
             ) : (
-                // Menu Open icon
+              // Menu Open icon
               <AiOutlineMenuUnfold size={26} />
             )}
           </button>
