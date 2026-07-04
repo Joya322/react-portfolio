@@ -16,7 +16,8 @@ const Skills = () => {
       
     categoryButtons.forEach((btn) => {
       if (btn.id !== category) {
-        btn.classList.remove("bg-violet-800", "text-white");
+          btn.classList.remove("bg-violet-800", "text-white");
+          btn.classList.add("bg-violet-300", "text-violet-900");
       }
     });
 
@@ -37,7 +38,7 @@ const Skills = () => {
         <button
           id="frontend"
           onClick={() => handleCategoryClick("frontend")}
-          className="category-btn btn bg-violet-300 text-violet-900 border-none text-lg hover:bg-violet-400"
+          className="category-btn btn bg-violet-800 text-white border-none text-lg hover:bg-violet-400"
         >
           Frontend
         </button>
