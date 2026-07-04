@@ -1,13 +1,16 @@
 import React from "react";
+import { FaBriefcase, FaGraduationCap, FaMapPin } from "react-icons/fa";
+import { LuBriefcaseBusiness } from "react-icons/lu";
+import { MdEmail, MdLanguage } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="mt-8 flex justify-center items-center gap-10 flex-col md:flex-row"
+      className="mt-8 flex justify-center items-center gap-10 flex-col lg:flex-row"
     >
-      <div id="content-part" className="md:w-7/12">
+      <div id="content-part" className="lg:w-7/12">
         <h3 className="text-xl font-bold text-violet-700">About Me</h3>
         <h2 className="font-bold text-3xl mt-2 mb-8">
           Who I <span className="text-violet-700">Am</span>
@@ -80,27 +83,36 @@ const About = () => {
         {/* </div> */}
       </div>
 
-      <div className="highlights md:w-5/12">
+      <div className="highlights lg:w-5/12">
         {/* Quick Facts */}
         <div className="text-base font-semibold p-5 border rounded-lg shadow-lg shadow-violet-400">
           <h4 className="text-base font-semibold text-violet-700">
             Quick Facts
           </h4>
-          <div className="flex gap-8 text-base text-gray-700 justify-start items-center mt-4">
-            <div className="opacity-70">
-              <p>Role</p>
-              <p>Education</p>
-              <p>Location</p>
-              <p>Language</p>
-              <p>Email</p>
+          <div className="flex flex-col gap-3 text-base mt-4">
+            <div className="flex justify-start items-start gap-2">
+              <FaBriefcase className="text-amber-700" size={25} />
+              <p> Lecturer & Full-Stack Web Developer</p>
             </div>
-            <div className="">
-              <p>: Lecturer & Full-Stack Web Developer</p>
-              <p>: B.Sc. in Computer Science & Engineering</p>
-              <p>: Bengali, English</p>
-              <p>: Dhaka, Bangladesh</p>
-              <p>: jannatferdoush1212@gmail.com</p>
+            <div className="flex justify-start items-start gap-2">
+              <FaGraduationCap className="text-black-700" size={25} />
+              <p> B.Sc. in Computer Science & Engineering</p>
             </div>
+            <div className="flex justify-start items-start gap-2">
+              <FaMapPin className="text-red-700" size={25} />
+              <p> Bengali, English</p>
+            </div>
+            <div className="flex justify-start items-start gap-2">
+              <MdLanguage className="text-blue-700" size={25} />
+              <p> Dhaka, Bangladesh</p>
+            </div>
+            <div className="flex justify-start items-start gap-2">
+              <MdEmail className="text-green-700" size={25} />
+              <p>jannatferdoush1212@gmail.com</p>
+            </div>
+
+            {/* <div className=" flex flex-col gap-2"></div>
+            <div className="flex flex-col"></div> */}
           </div>
         </div>
 

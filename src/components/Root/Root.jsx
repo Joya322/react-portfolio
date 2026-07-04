@@ -5,7 +5,7 @@ const Root = () => {
     return (
       <div className="bg-gradient-to-b from-sky-50 to-sky-200  w-full min-h-screen">
           <Navbar />
-        <div className="w-11/12 mx-auto py-6 px-10">
+        <div className="w-11/12 mx-auto py-6 px-5">
           <Outlet />
         </div>
       </div>
