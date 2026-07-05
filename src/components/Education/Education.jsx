@@ -2,7 +2,7 @@ import { FaGraduationCap, FaRegCalendarAlt } from "react-icons/fa";
 
 const Education = () => {
   return (
-    <div className="mt-8">
+    <section className="mt-8">
       <h2 className="text-3xl font-bold text-center">Education</h2>
 
       {/* cards */}
@@ -112,7 +112,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
