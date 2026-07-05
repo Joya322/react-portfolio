@@ -5,7 +5,7 @@ const Experiences = () => {
   return (
     <section className="mt-8">
       <h3 className="text-3xl font-bold text-center">Experience</h3>
-      <p className="mx-auto w-3/5 text-center mt-3 opacity-80">
+      <p className="mx-auto lg:w-3/5 text-center mt-3 opacity-80">
         My professional journey in teaching and software development, where I
         have combined technical expertise with mentoring and project
         development.
