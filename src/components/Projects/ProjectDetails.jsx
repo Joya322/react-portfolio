@@ -10,7 +10,7 @@ const ProjectDetails = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("/data/projects.json");
+      const res = await fetch(`${import.meta.env.BASE_URL}data/projects.json`);
 
       const data = await res.json();
 
@@ -43,7 +43,11 @@ const ProjectDetails = () => {
       <h1 className="text-center text-3xl font-bold">{projectName}</h1>
 
       <p className="text-center mt-2 text-gray-500">
-        A {category === "web" ? "Web" : category === "android" ? "Android" : ""}{" "}
+        {category === "web"
+          ? "A Web"
+          : category === "android"
+            ? "An Android"
+            : ""}{" "}
         Application
       </p>
       <div className="grid grid-cols-12 gap-8 mt-6">

@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-import WebApps from "./WebApps";
-import AndroidApps from "./AndroidApps";
-import OtherApps from "./OtherApps";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -14,7 +11,7 @@ const Projects = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("/data/projects.json");
+      const res = await fetch(`${import.meta.env.BASE_URL}data/projects.json`);
 
       const data = await res.json();
 
@@ -95,7 +92,10 @@ const Projects = () => {
         </button>
       </div>
 
-      <div id="project-cards" className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
+      <div
+        id="project-cards"
+        className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5"
+      >
         {displayedProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
