@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "slug": "swift-cart",
+    "category": "web",
+    "projectName": "Swift Cart",
+    "projectImage": "./swift-cart.png",
+    "technologyStack": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "React Router",
+      "Context API"
+    ],
+    "description": "Swift Cart is a modern e-commerce web application that allows users to browse products, view detailed product information, manage their shopping cart, and enjoy a responsive shopping experience. The application focuses on clean UI design, smooth navigation, and an intuitive user experience across different devices.",
+    "liveLink": "https://joya322.github.io/SwiftCart-ecommerce/",
+    "githubClient": "https://github.com/Joya322/SwiftCart-ecommerce",
+    "challenges": [
+      "Managing shopping cart state across multiple components.",
+      "Implementing authentication and protected routes.",
+      "Designing a responsive interface for different screen sizes.",
+      "Creating reusable UI components to reduce code duplication."
+    ],
+    "futurePlans": [
+      "Integrate secure online payment gateways.",
+      "Implement product search and advanced filtering.",
+      "Add order history and user profile management.",
+      "Develop an admin dashboard for product management."
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "customer-support-zone",
+    "category": "web",
+    "projectName": "Customer Support Zone",
+    "projectImage": "./customer-support-zone.png",
+    "technologyStack": ["React", "Tailwind CSS", "JavaScript", "React Router"],
+    "description": "Customer Support Zone is a responsive customer support platform designed to help users easily access support services, browse frequently asked questions, and communicate with the support team through a clean and user-friendly interface.",
+    "liveLink": "https://hissing-sugar.surge.sh/",
+    "githubClient": "https://github.com/Joya322/Customer-Support-Zone",
+    "challenges": [
+      "Creating an intuitive user experience for support-related features.",
+      "Managing protected routes for authenticated users.",
+      "Maintaining a consistent design across different pages.",
+      "Optimizing responsiveness for mobile and desktop devices."
+    ],
+    "futurePlans": [
+      "Implement real-time live chat support.",
+      "Add a ticket management system.",
+      "Introduce role-based access for support agents and users.",
+      "Enable email notifications for support requests."
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "hero-io",
+    "category": "web",
+    "projectName": "Hero.io",
+    "projectImage": "./hero-io.png",
+    "technologyStack": ["React", "Tailwind CSS", "JavaScript", "React Router"],
+    "description": "Hero.io is a responsive web application developed with a focus on modern UI design and seamless user experience. The project demonstrates component-based architecture, responsive layouts, and efficient navigation using React and Tailwind CSS.",
+    "liveLink": "http://super-apps.surge.sh/",
+    "githubClient": "https://github.com/Joya322/hero-io",
+    "challenges": [
+      "Designing reusable React components.",
+      "Implementing responsive layouts for various screen sizes.",
+      "Managing application routing efficiently.",
+      "Maintaining clean and organized project structure."
+    ],
+    "futurePlans": [
+      "Add more interactive features.",
+      "Improve application performance and optimization.",
+      "Implement backend integration for dynamic data.",
+      "Enhance accessibility and user experience."
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "todo-list-app",
+    "category": "android",
+    "projectName": "ToDo List App",
+    "projectImage": "./todo-list-app.jpg",
+    "technologyStack": ["React Native", "JavaScript", "AsyncStorage"],
+    "description": "A simple and user-friendly ToDo List application built with React Native. The app allows users to add new tasks, edit existing tasks, and remove completed or unwanted tasks. Task data is stored locally using AsyncStorage, ensuring that all tasks remain available even after closing or refreshing the application.",
+    "liveLink": "",
+    "githubClient": "https://github.com/Joya322/ToDoListApp",
+    "challenges": [
+      "Implementing the edit functionality while maintaining the correct task state.",
+      "Managing local data persistence using AsyncStorage.",
+      "Keeping the user interface synchronized after adding, editing, and deleting tasks.",
+      "Handling state updates efficiently to ensure a smooth user experience."
+    ],
+    "futurePlans": [
+      "Add task categories and priority levels.",
+      "Implement due dates and reminder notifications.",
+      "Allow users to mark tasks as completed.",
+      "Add search and filtering functionality.",
+      "Support cloud synchronization for cross-device access."
+    ]
+  }
+]

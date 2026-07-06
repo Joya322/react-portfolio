@@ -20,8 +20,8 @@ const Education = () => {
 
           {/* BSC */}
           <div className="w-full lg:w-5/12 rounded-2xl border p-8 shadow-lg shadow-violet-500 bg-white/40">
-            <div className="flex gap-2 font-semibold justify-start items-start text-violet-600">
-              <FaGraduationCap className="inline-block text-2xl" />
+            <div className="flex items-center gap-2 font-semibold text-violet-600">
+              <FaGraduationCap className="inline-block text-2xl"/>
               <p className="text-lg md:text-2xl">
                 Bachelor of Science in Computer Science
               </p>
@@ -57,7 +57,7 @@ const Education = () => {
 
           {/* HSC */}
           <div className="w-full lg:w-5/12 rounded-2xl border p-8 shadow-lg shadow-violet-500 bg-white/40">
-            <div className="flex items-center gap-2  font-semibold text-violet-600">
+            <div className="flex items-center gap-2 font-semibold text-violet-600">
               <FaGraduationCap className="inline-block text-2xl" />
               <h3 className="text-lg md:text-2xl">
                 Higher Secondary Certificate
