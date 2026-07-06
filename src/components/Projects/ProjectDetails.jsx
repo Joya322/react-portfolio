@@ -38,8 +38,6 @@ const ProjectDetails = () => {
     futurePlans,
   } = selectedProject;
 
-  //   console.log(selectedProject.projectName);
-
   return (
     <div className="mt-6 flex flex-col items-center">
       <h1 className="text-center text-3xl font-bold">{projectName}</h1>
